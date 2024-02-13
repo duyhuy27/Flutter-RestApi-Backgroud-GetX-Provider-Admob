@@ -1,0 +1,69 @@
+Card(
+                      color: Colors.white,
+                      elevation: 2,
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Column(
+                          children: [
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Row(
+                                  children: [
+                                    Icon(
+                                      Icons.abc_outlined,
+                                      size: 24,
+                                    ),
+                                    SizedBox(
+                                      width: 10,
+                                    ),
+                                    Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          'BTC',
+                                          style: TextStyle(fontSize: 16),
+                                        ),
+                                        Text(
+                                          'Bitcoin',
+                                          style: TextStyle(fontSize: 13),
+                                        )
+                                      ],
+                                    ),
+                                  ],
+                                ),
+                                Row(
+                                  children: [
+                                    Text(
+                                      '- 0.28%',
+                                      style: TextStyle(fontSize: 13),
+                                    ),
+                                    Text(
+                                      "VND 48,1482",
+                                      style: TextStyle(fontSize: 13),
+                                    ),
+                                  ],
+                                )
+                              ],
+                            ),
+                            SizedBox(
+                              height: 12,
+                            ),
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Text(
+                                  'Vol (24h) : 123123',
+                                  style: TextStyle(fontSize: 12),
+                                ),
+                                Text(
+                                  'Market Cap: : 123123',
+                                  style: TextStyle(fontSize: 12),
+                                )
+                              ],
+                            )
+                          ],
+                        ),
+                      ),
+                    );
